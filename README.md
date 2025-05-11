@@ -1,3 +1,8 @@
+## 🔗 Live Demo
+
+[View Live Calculator](https://kranthi6600.github.io/Simple-JS-Calculator-with-Dark-Mode/)
+
+
 # Simple JavaScript Calculator with Dark Mode
 
 A clean, modular JavaScript calculator that uses **ES6 modules** and features a **dark mode toggle**. This project demonstrates how to build a small, interactive web-based calculator with inputs, DOM interactions, and a smooth dark/light mode transition.
