@@ -1,0 +1,83 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JS Modules Demo</title>
+
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: white;
+      color: black;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    input {
+      width: 200px;
+      padding: 10px;
+      margin: 5px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px 5px;
+      font-size: 16px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #result {
+      margin-top: 30px;
+      font-size: 22px;
+      
+    }
+
+    .dark-mode {
+      background-color: #000000;
+      color: #eee;
+    }
+
+    #dark-mode {
+        background-color: black;
+        border-radius: 20px;
+       position: absolute;
+       top: 10px;
+       left: 10px;
+       padding: 5px 10px;
+        font-size: small;
+    }
+
+  </style>
+
+</head>
+<body>
+  <h1>simple calc</h1>
+
+  <input id="num1" type="number" placeholder="Enter the first number">
+  <input id="num2" type="number" placeholder="Enter the second number">
+  <br /> <br />
+  
+    <button onclick="calculate('add')">Add</button>
+    <button onclick="calculate('subtract')">Subtract</button>
+    <button onclick="calculate('multiply')">Multiply</button>
+    <button onclick="calculate('divide')">Divide</button>
+
+    <button id="dark-mode">Dark</button>
+  <h2 id="result">Result: </h2>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
